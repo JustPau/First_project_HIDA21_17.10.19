@@ -29,14 +29,3 @@ myfile.close()
 
 
 
-##with open('data.csv', 'w'):
-##    fieldnames = ['column1']
-##    thewriter = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-##    thewriter.writeheader()
-##    for i in range(1, 2000):
-##        thewriter.writerow({'column1' : 'a'})
-
-##    writer.writerow(['title', 'Description','Col 3'])
-##    writer.writerow(['Row 1', 'some description','another' ])
-##    writer.writerow(['Row 1', 'some description', 'another'])
